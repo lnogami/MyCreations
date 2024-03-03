@@ -1,5 +1,5 @@
-Name: Lino G. Gamil III
-Course: BSIT 
+Name: Lino G. Gamil III   
+Course: BSIT   
 Year: 2nd
 
 I'm new to github, and this is my first ever created website.
