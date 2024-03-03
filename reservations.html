@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="reservations.css">
+    <link rel="icon" type="image/jpg" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <h1>Reservation</h1>
+        <img src="images/logo.png" alt="logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="cottages.html">COTTAGES</a></li>
+                <li><a href="room-rates.html">ROOM RATES</a></li>
+                <li><a href="reservations.html">RESERVATIONS</a></li>
+                <li><a href="about-us.html">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="blurry-background"></div>
+        <div class="form-container">
+            <form>
+                <div class="reservationf">
+                    <h2>Reservation Form</h2>
+                </div>
+                <div class="row">
+                    <div class="input-group">
+                        <label for="firstname">First Name</label><br>
+                        <input type="text" placeholder="Ino" name="firstname" id="firstname" required><br>
+                    </div>
+                    <div class="input-group">
+                        <label for="lastname">Last Name</label><br>
+                        <input type="text" placeholder="Gami" name="lastname" id="lastname" required><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-group">
+                        <label for="cellno">Contact Number</label><br>
+                        <input type="tel" placeholder="09987654321" name="cellno" id="cellno" required><br>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label><br>
+                        <input type="email" placeholder="inogami@gmail.com" name="email" id="email" required><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="roomtype">
+                        <label for="dropdown">Room Type</label><br>
+                        <select id="dropdown">
+                            <option value="premium_a">Premium A</option>
+                            <option value="premium_b">Premium B</option>
+                            <option value="dormitory">Dormitory</option>
+                            <option value="dormitory_pro">Dormitory Pro</option>
+                            <option value="standard_singles">Standard Singles</option>
+                            <option value="standard_singles_up">Standard Singles UP</option>
+                            <option value="no_room" selected>I don't want a room</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="check-in">Check-in</label><br>
+                        <input type="date" name="check-in" id="check-in" required><br>
+                    </div>
+                    <div class="input-group">
+                        <label for="checkout">Check-out</label><br>
+                        <input type="date" name="check-out" id="check-out" required><br>
+                    </div>
+                </div>
+                <div class="textarea">
+                    <label for="suggestion">Suggestion/Request</label><br>
+                    <textarea placeholder="(Leave this blank if you don't have one)" id="suggestion"></textarea>
+                </div>
+                <button type="submit" class="submit">SUBMIT</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
